@@ -1,0 +1,127 @@
+.firstsection{
+  background-color:rgba(129, 107, 107, 0.311) ;
+}
+nav
+{
+  list-style-type: none;
+}
+a{
+  color: black;
+  float: left;
+}
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: rgb(188, 193, 139);
+}
+.content{
+  color: rgb(49, 10, 10);
+  margin-left:5%;
+  margin-top: 18%;
+  position: fixed;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+  font-size: 70px;
+  font-size: 90px;
+}
+
+.menubox{
+  border: 1px solid rgb(85, 15, 15) ;
+  position: fixed;
+  display: flex;
+  margin-top: 35%;
+  width: 10%;
+  background-color: rgb(88, 19, 19);
+  text-align: center;
+  height: 30px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px 3px rgba(83, 32, 32, 0.577);
+  margin-left: 20%;
+  text-align: center;
+}
+.viewmenu
+{
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 5px;
+  display: flex;
+  color: rgb(255, 255, 255);}
+.home{
+float: right;
+margin-right: 39%;
+margin-top: 10px;
+text-decoration:none;
+border: 3px solid rgb(188, 193, 139);
+}
+.coffeemenu{
+  text-decoration: none;
+  float: right;
+  margin-left:62%;
+  display: flex;
+  position: fixed;
+  margin-top:10px;
+  border: 3px solid rgb(188, 193, 139);
+}
+
+.coffeeshop{
+ float: right;
+ margin-left: 90%;
+ display: flex;
+ position:fixed;
+ margin-top: 10px;
+ text-decoration: none;
+ text-transform:uppercase;
+ border: 1px solid brown;
+ border-radius: 10px;
+ background-color: rgb(63, 11, 11);
+ width: 8%;
+ height: 20px;
+color: rgb(234, 226, 226);
+text-align: center;
+
+}
+.contact{
+  float: right;
+  margin-top: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  position: fixed;
+  margin-left: 80%;
+}
+.about 
+{
+  display: flex;
+  position: fixed;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left:72%;
+  border: 3px solid rgb(188, 193, 139);
+}
+.homeimage{
+  position: fixed;
+  display: flex;
+  width: 30%;
+  margin-left: 65%;
+  margin-top: 9%;
+}
+.home:hover{
+  border-top-color: brown;
+  border-bottom-color:brown;
+}
+.coffeemenu:hover{
+  border-top-color: brown;
+  border-bottom-color:brown;
+}
+.about:hover{
+  border-top-color: brown;
+  border-bottom-color:brown;
+}
+.contact:hover{
+  border-top-color: brown;
+  border-bottom-color:brown;
+}
+.coffeeshop:hover{
+  box-shadow: 4px 4px black;
+}
